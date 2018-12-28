@@ -1,4 +1,192 @@
-body {
 
-	background-color: yellow;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
 }
+
+
+h5{
+	font-weight: bold;
+	font-size: 20px;
+
+
+}
+
+h1{
+	font-weight: 800;
+	font-size: 70px;
+
+}
+
+h3{
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+p{
+
+	font-weight: bold;
+	font-size: 20px;
+	margin: 30px 0;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+
+
+}
+
+
+.hero-banner{
+	background-color: #007FFF;
+	height: 100vh;
+	padding: 50px 20px;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+
+}
+.hero-banner h5{
+	color: white;
+	margin : 0;
+}
+
+.hero-banner h1{
+	color: white;
+	margin : 14px 0 20px;
+}
+
+.hero-banner h3{
+	color: white;
+	margin : 0 0 35px;
+
+}
+
+.character1{
+background: url(img/carotte.png) no-repeat 0 0;
+background-size: 70%;
+width: 600px;
+height: 794px;
+position: absolute; top : 40px; right: 10px;
+
+}
+
+.more-info{
+ text-align: center;
+
+}
+.wrapper{
+
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+a.cta,
+button.cta{
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	background:  #007FFF ;
+	display : inline-block;
+	box-shadow: 0 0 0 10px rgba(0,127,255,.15);
+	padding : 20px 30px;
+	border-radius: 10px;
+	text-decoration: none;
+
+
+
+}
+
+a.cta.alt,
+button.cta.alt{
+	background-color: #FFD400;
+	box-shadow: 0 0 0 10px rgba(0,0,0,.15);
+	color: #111111;
+}
+
+
+
+nav{
+	height: 80px;
+	box-shadow: 0 5px 8px rgba(0,0,0,.2);
+	position: sticky;
+	background-color: white;
+	top: 0;
+}
+
+nav .logo{
+	display: block; 
+	width: 297px;
+	height: 31px;
+	position: absolute; top: 10%;
+	margin-top: 5px;
+	margin-left: 15px;
+	margin-bottom: 50px;
+	background: url(img/logo.png) no-repeat 0 0 ;
+	background-size: 100%;
+	overflow: hidden;
+	text-indent: -999px;
+
+}
+
+
+nav ul {
+padding : 5px;
+margin : 30px;
+
+}
+
+nav ul li {
+padding : 5px;
+margin : 0;
+display: block;
+float: right;
+
+}
+
+nav ul li a{
+display: block;
+height: 80%;
+box-sizing: border-box;
+font-size: 30px;
+text-transform: uppercase;
+font-weight: bold;
+text-decoration: none;
+color: #111111
+padding : 35px 50px;
+line-height: 30px;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+
+/*<nav>
+<a href="#" class="logo"> Flanner </a>
+<ul>
+	<li><a href="#propos"> À propos </a> </li>
+	<li> <a href="#nous"> Plus d'infos </a> </li>
+</ul>
+</nav>
+
+*/
+
+/*
+
+	<div class="hero-banner">
+	<div class="wrapper"> 
+<h5> Mathilde GARCIA Charlotte CHATELIN et Mathilde KUNTZ </h5>
+<h1> THE FLANNER </h1>
+<h3> Préparer vos repas avec le Flanner ! </h3>
+
+<a class="cta alt" href="#more-info"> En savoir plus </a>
+
+	</div>
+<div class="character1"> </div>
+*/
