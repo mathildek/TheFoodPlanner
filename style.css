@@ -55,6 +55,7 @@ p{
 .hero-banner h5{
 	color: white;
 	margin : 0;
+	padding: 0 0 100px;
 }
 
 .hero-banner h1{
@@ -87,6 +88,11 @@ position: absolute; top : 40px; right: 10px;
 	margin: 0 auto;
 }
 
+.hightlight {
+
+color: #FF3300;
+padding: 10px;
+}
 
 a.cta,
 button.cta{
@@ -166,27 +172,84 @@ padding-right: 20px;
 padding-left: 20px;
 }
 
+.sep{
 
-/*<nav>
-<a href="#" class="logo"> Flanner </a>
-<ul>
-	<li><a href="#propos"> À propos </a> </li>
-	<li> <a href="#nous"> Plus d'infos </a> </li>
-</ul>
-</nav>
 
-*/
+}
 
+
+.nb-list{
+	width: 470px;
+	background-color: #EDEDED;
+	padding: 20px 20px 0 20px;
+	box-sizing: border-box;
+	float: left;
+	margin-left: 0 30px 20px 0;
+
+
+}
+
+.nb-list li{
+	height: 70px;
+	border-radius: 10px;
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 20px;
+	padding: 6px 20px;
+	box-sizing: border-box;
+	position: relative;
+
+
+
+}
+
+.nb-list li.yellow{
+	background-color: red;
+	color: #111111;}
+.nb-list li.blue{
+	background-color: #007FFF;
+	color: #111111 ;}
+.nb-list li.gray{background-color: rgba(0,0,0,.1);}
+.nb-list li.salmon{
+	background-color: #FA8072;
+	color: white;}
+.nb-list li.yellowdragging{
+	background-color: #FFD400;
+	color: #111111;
+	position: absolute;
+	top: 30px;
+	left: 30px;
 /*
-
-	<div class="hero-banner">
-	<div class="wrapper"> 
-<h5> Mathilde GARCIA Charlotte CHATELIN et Mathilde KUNTZ </h5>
-<h1> THE FLANNER </h1>
-<h3> Préparer vos repas avec le Flanner ! </h3>
-
-<a class="cta alt" href="#more-info"> En savoir plus </a>
-
+	<div class="sep">
 	</div>
-<div class="character1"> </div>
-*/
+ 
+	<div class="story">
+
+		<ul class ="nb-list" id="propos">
+				<li class="blue"> MATIN </li>
+				<li class="gray"> MIDI </li>
+				<li class="yellow"> SOIR </li>
+				<li class="red"> Liste </li>
+
+		</ul>
+
+		<h3> Explication Code </h3>
+		<p> Notre projet permet à son utilisateur (particulier, hôtel ou restaurant) de limiter le gachis en achetant uniquement ce qu'il a besoin au point de vu des aliments nécessaires. En effet, lorqu'on prévoit les repas à l'avance, on sait exactement quoi acheter. Notre programme permet d'avoir une vision d'ensemble des repas pour une semaine et prévoit automatiquement la liste de course associée en fpnction des quantité voulue. </p>
+
+		<p> Le programme se décompose en plusieurs Userformes qui permettent de controller les repas, ajouter des plats personnalisés dans la base de données et de créer la liste de course. </p>
+	</div>
+
+
+<div class="sep">
+	</div>
+	
+<div class="nous" id="nous">
+<h4> Mathilde GARCIA Charlotte CHATELIN et Mathilde KUNTZ </h4>
+<p> UTBM Automne 2018  <span class="hightlight"> Groupe B</span> </p>
+
+	<img src="img/the-gang.png" width="735" height="399"
+	alt="The Gang">
+
+	*/
