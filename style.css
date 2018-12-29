@@ -25,6 +25,13 @@ h1{
 h3{
 	font-weight: bold;
 	font-size: 30px;
+	padding-right: 20px;
+
+}
+h4{
+	font-weight: normal;
+	font-size: 15px;
+	text-align: center;
 
 }
 
@@ -78,6 +85,26 @@ position: absolute; top : 40px; right: 10px;
 
 }
 
+.excell{
+background: url(img/excel.jpg);
+background-size: 100%;
+position: relative;
+width: 1000px;
+height: 508px;
+
+
+}
+
+.tableur{
+background: url(img/Tableur.jpg);
+background-size: 100%;
+position: relative;
+width: 1000px;
+height: 508px;
+
+
+}
+
 .more-info{
  text-align: center;
 
@@ -117,7 +144,22 @@ button.cta.alt{
 	color: #111111;
 }
 
+a.boutton{
+	box-sizing: border-box;
+font-size: 30px;
+	font-weight: bold;
+	color: white;
+	background:  #007FFF ;
+	display : inline-block;
+	box-shadow: 0 0 0 10px rgba(0,127,255,.15);
+	padding : 20px 30px;
+	border-radius: 10px;
+	text-decoration: none;
 
+}
+form .input{
+	color : red;
+}
 
 nav{
 	height: 80px;
@@ -125,6 +167,7 @@ nav{
 	position: sticky;
 	background-color: white;
 	top: 0;
+	transition: 0.2s;
 }
 
 nav .logo{
