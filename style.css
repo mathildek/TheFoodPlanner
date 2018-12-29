@@ -185,7 +185,20 @@ padding-left: 20px;
 	box-sizing: border-box;
 	float: left;
 	margin-left: 0 30px 20px 0;
+	position: relative;
 
+
+}
+
+.nb-list li.dragging{
+
+	position: absolute;
+	padding-top: 40px;
+	top: 100px;
+	left: 20px;
+	right: 20px;
+	transform: rotate(60deg);
+	box-shadow: 8 2px 14px rgba(0,0,0,.3)
 
 }
 
@@ -206,12 +219,12 @@ padding-left: 20px;
 }
 
 .nb-list li.yellow{
-	background-color: red;
+	background-color: #FFD400;
 	color: #111111;}
 .nb-list li.blue{
 	background-color: #007FFF;
 	color: #111111 ;}
-.nb-list li.gray{background-color: rgba(0,0,0,.1);}
+.nb-list li.red{background-color: rgba(0,0,0,.1);}
 .nb-list li.salmon{
 	background-color: #FA8072;
 	color: white;}
