@@ -90,17 +90,21 @@ background: url(img/semaine.PNG);
 background-size: 100%;
 position: relative;
 width: 1000px;
-height: 508px;
-
+height: 255px;
+padding-top: 30px;
+padding-bottom: 20px;
+margin-bottom: 20px;
 
 }
 
 .excel{
 background: url(img/userforme.PNG);
 background-size: 100%;
-position: relative;
-width: 1000px;
-height: 508px;
+position: absolute;
+width: 628px;
+height: 523px;
+padding-top: 30px;
+padding-bottom: 20px;
 
 
 }
