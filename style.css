@@ -169,6 +169,7 @@ nav{
 	background-color: white;
 	top: 0;
 	transition: 0.2s;
+	z-index: 99;
 }
 
 nav .logo{
