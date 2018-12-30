@@ -262,12 +262,9 @@ padding-left: 20px;
 .nb-list li.salmon{
 	background-color: #FA8072;
 	color: white;}
-.nb-list li.yellowdragging{
-	background-color: #FFD400;
+.nb-list li.pink{
+	background-color: #f45042;
 	color: #111111;
-	position: absolute;
-	top: 30px;
-	left: 30px;
 /*
 	<div class="sep">
 	</div>
