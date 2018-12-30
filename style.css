@@ -254,17 +254,17 @@ padding-left: 20px;
 
 .nb-list li.yellow{
 	background-color: #FFD400;
-	color: #111111;}
+	color: white;}
 .nb-list li.blue{
 	background-color: #007FFF;
-	color: #111111 ;}
+	color: white ;}
 .nb-list li.red{background-color: rgba(0,0,0,.1);}
 .nb-list li.salmon{
 	background-color: #FA8072;
 	color: white;}
 .nb-list li.pink{
 	background-color: #f45042;
-	color: #111111;
+	color: white;
 /*
 	<div class="sep">
 	</div>
