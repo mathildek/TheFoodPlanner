@@ -102,9 +102,10 @@ background: url(img/userforme.PNG);
 background-size: 100%;
 position: absolute;
 width: 628px;
-height: 523px;
+height: 480px;
 padding-top: 30px;
 padding-bottom: 20px;
+margin-left: 80px;
 
 
 }
